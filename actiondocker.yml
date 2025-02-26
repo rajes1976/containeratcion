@@ -1,0 +1,14 @@
+name:  'my first container action'
+description  'first container'
+author:  'Rajes'
+inputs:
+  myInput:
+    description: 'great to use'
+    required:  true
+    default:  'Awesome container'
+outputs:
+  myOutput:
+    description:  'total memory'
+runs:
+  using:  'docker'
+  image:  'Dockerfile'
